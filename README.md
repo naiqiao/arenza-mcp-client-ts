@@ -117,9 +117,9 @@ Current limits are returned in `X-RateLimit-Remaining` headers. The client does 
 
 - [`@arenza/cli`](https://github.com/arenza-ai/arenza-cli) — `npx arenza scan brand.com` for one-off scans.
 - [`arenza-mcp-client-python`](https://github.com/arenza-ai/arenza-mcp-client-python) — Python equivalent of this client.
-- [`arenza-langchain`](https://github.com/arenza-ai/arenza-langchain) — wrap Arenza tools as LangChain tools.
-- [`arenza-llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same for LlamaIndex.
-- [`arenza-vercel-ai-sdk`](https://github.com/arenza-ai/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
+- [`@arenza/langchain`](https://github.com/arenza-ai/arenza-langchain) — wrap Arenza tools as LangChain tools.
+- [`@arenza/llamaindex`](https://github.com/arenza-ai/arenza-llamaindex) — same for LlamaIndex.
+- [`@arenza/vercel-ai-sdk`](https://github.com/arenza-ai/arenza-vercel-ai-sdk) — Vercel AI SDK provider.
 - [awesome-geo](https://github.com/arenza-ai/awesome-geo) — broader curated GEO resources list.
 
 ## Resources
