@@ -1,5 +1,5 @@
 {
-  "name": "@arenza/mcp-client",
+  "name": "arenza-mcp-client",
   "version": "0.1.0",
   "description": "TypeScript client for the Arenza MCP server — programmatic access to AI visibility metrics, brand mentions, and GEO opportunities across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.",
   "keywords": [

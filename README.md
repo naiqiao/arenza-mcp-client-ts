@@ -1,4 +1,4 @@
-# @arenza/mcp-client
+# arenza-mcp-client
 
 > TypeScript client for the **Arenza MCP server** — programmatic access to AI visibility metrics, brand mentions, hallucination findings, and GEO opportunities across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.
 
@@ -13,17 +13,17 @@ If you want to use Arenza from Claude Desktop directly (no code), see [Use Claud
 ## Install
 
 ```bash
-npm install @arenza/mcp-client
+npm install arenza-mcp-client
 # or
-pnpm add @arenza/mcp-client
+pnpm add arenza-mcp-client
 # or
-yarn add @arenza/mcp-client
+yarn add arenza-mcp-client
 ```
 
 ## Quick start
 
 ```ts
-import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { ArenzaMCPClient } from 'arenza-mcp-client';
 
 const client = new ArenzaMCPClient({
   // Get a token at https://app.arenza.ai/settings/api or use OAuth flow.
@@ -86,7 +86,7 @@ The Arenza MCP server supports OAuth 2.0 with Dynamic Client Registration (DCR) 
 ## Example: weekly GEO digest cron
 
 ```ts
-import { ArenzaMCPClient } from '@arenza/mcp-client';
+import { ArenzaMCPClient } from 'arenza-mcp-client';
 
 async function weeklyDigest() {
   const client = new ArenzaMCPClient({ token: process.env.ARENZA_TOKEN! });
