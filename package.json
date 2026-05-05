@@ -24,10 +24,10 @@
   "homepage": "https://arenza.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naiqiao/arenza-mcp-client-ts.git"
+    "url": "git+https://github.com/arenza-ai/arenza-mcp-client-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/naiqiao/arenza-mcp-client-ts/issues"
+    "url": "https://github.com/arenza-ai/arenza-mcp-client-ts/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
