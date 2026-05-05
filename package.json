@@ -1,0 +1,51 @@
+{
+  "name": "@arenza/mcp-client",
+  "version": "0.1.0",
+  "description": "TypeScript client for the Arenza MCP server — programmatic access to AI visibility metrics, brand mentions, and GEO opportunities across ChatGPT, Claude, Gemini, Perplexity, Copilot, and Grok.",
+  "keywords": [
+    "arenza",
+    "geo",
+    "generative-engine-optimization",
+    "ai-visibility",
+    "ai-search",
+    "llm-seo",
+    "brand-mention-tracking",
+    "mcp",
+    "model-context-protocol",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "perplexity",
+    "copilot",
+    "grok"
+  ],
+  "license": "MIT",
+  "author": "Arenza <hello@arenza.ai> (https://arenza.ai)",
+  "homepage": "https://arenza.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naiqiao/arenza-mcp-client-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naiqiao/arenza-mcp-client-ts/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
